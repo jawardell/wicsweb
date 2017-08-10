@@ -1,0 +1,64 @@
+﻿body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: #ffd9cc;
+    /*background-color: antiquewhite;*/
+}
+
+.navigationbar {
+    border: 5px black;
+    border-top: dotted;
+    border-left: dotted;
+    border-right: dotted;
+    border-width: 5px;
+    display: inline-block;
+    padding-right: 20px;
+}
+
+#logo {
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#links p {
+    display: inline-block;
+    padding-left: 40px;
+    font-weight: bolder;
+}
+
+#links {
+    vertical-align: top;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: gray;
+}
+
+#pgtitle {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.bck {
+    background-image: url("wics/wallhaventitles.jpg");
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 90px;
+    font-family: Georgia;
+    text-align: center;
+}
+
+.credits {
+    font-size: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    float: right;
+}
