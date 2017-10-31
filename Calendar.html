@@ -3,11 +3,29 @@
 <head>
     <meta charset="utf-8" />
     <title>Calendar - VSU Women in Computer Science</title>
-    <link rel="icon" type="image/png" href="wics\girl2.jpg" />
+    <link rel="icon" type="image/png" href="WiCS/wics/girl2.jpg" />
     <link rel="stylesheet" type="text/css" href="AllStyleSheet.css">
     <style>
         #links p {
             font-size: 13.9px;
+            /* Responsive iFrame by Chris Vendilli*/
+        }
+        .responsive-iframe-container{
+            position: relative;
+            padding-bottom: 56.25%;
+            padding-top: 30px;
+            height: 0;
+            overflow: hidden;
+        }
+
+        .responsive-iframe-container iframe,
+        .vresponsive-iframe-container object,
+        .vresponsive-iframe-container embed {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
         }
     </style>
 </head>
@@ -38,8 +56,8 @@
     </div>
     <br />
     <br />
-    <div id="calendar" style="display: inline-block;">
-        <iframe src="https://calendar.google.com/calendar/embed?title=WICS%20%40%20VSU&amp;height=500&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=wics.vsu%40gmail.com&amp;color=%231B887A&amp;src=en.usa%23holiday%40group.v.calendar.google.com&amp;color=%23125A12&amp;ctz=America%2FNew_York" style="border-width: 0" width="1340" height="700" frameborder="0" scrolling="no"></iframe>
+    <div class="responsive-iframe-container">
+        <iframe src="https://calendar.google.com/calendar/embed?title=WICS%20%40%20VSU&amp;src=wics.vsu%40gmail.com&ctz=America/New_York" style="border-width: 0" width="600" height="800" frameborder="0" scrolling="no"></iframe>
     </div>
 </body>
 </html>
