@@ -11,7 +11,7 @@
     border-left: dotted;
     border-right: dotted;
     border-width: 5px;
-    margin-right:auto;
+    margin:auto;
     /*padding-right: 20px;*/
 }
 
@@ -44,8 +44,7 @@ a:hover {
 }
 
 #pgtitle {
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin:auto;
 }
 
 .bck {
@@ -59,5 +58,6 @@ a:hover {
 .credits {
     font-size: 10px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    float: right;
+    text-align:right;
+    margin:auto;
 }

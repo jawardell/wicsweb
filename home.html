@@ -12,14 +12,22 @@
 
         #top {
             font-family: Georgia;
-            margin-top: 0px;
-            margin-bottom: 0px;
+            /*margin-top: 0px;*/
+            margin: 0 auto;
+            /*margin-bottom: 0px;*/
+            padding-top: 150px;
+            position:relative;
+            text-align:center;
         }
 
         #btm {
             font-family: 'Monotype Corsiva';
-            margin-top: 0px;
-            margin-bottom: 0px;
+            /*margin-top: 0px;
+            margin-bottom: 0px;*/
+            padding-bottom: 150px;
+            margin: 0 auto;
+            position:relative;
+            text-align:center;
         }
 
         .dbck {
@@ -27,7 +35,7 @@
             background-repeat: no-repeat;
             color: white;
             font-size: 85px;
-            text-align: center;
+            /*text-align: center;*/
         }
 
         #blurb {
@@ -60,12 +68,16 @@
                 width: 100%;
                 height: 100%;
             }
+
+        .credits{
+            margin:auto;
+        }
     </style>
 </head>
 <body>
     <div class="navigationbar">
         <div id="logo">
-            <img src="WiCS/wics/wicstransparent2.png" style="width: 20%; height: 20%;" />
+            <img src="WiCS/wics/wicstransparent2.png" style="max-height:20%; max-width:20%;  margin:auto;" />
             <div id="links" style="display: inline-block;">
                 &nbsp; &nbsp;
                 <p><a href="home.html">< Home /></a></p>
@@ -86,8 +98,8 @@
     </div>
     <br />
     <div class="dbck">
-	    <p id="top" style="padding-top:150px;">Valdosta State University</p>
-        <p id="btm" style="padding-bottom:150px;">Women in Computer Science</p>
+	    <p id="top">Valdosta State University</p>
+        <p id="btm">Women in Computer Science</p>
     </div>
     <br />
     <br/>
@@ -97,7 +109,7 @@
             <p>Our Mission Statement</p>
             <p>Women in Computing seeks to unite the CS majors at Valdosta State University while encouraging and celebrating gender diversity in Computer Science and other STEM majors. We seek to empower and mentor women at Valdosta State University who are interested in technical fields.</p>
         </div>
-        <div id="calendar" style="display: inline-block;">
+        <div id="responsive-iframe-container" style="display: inline-block;">
             <iframe src="https://calendar.google.com/calendar/embed?title=WICS%20%40%20VSU&amp;src=wics.vsu%40gmail.com&ctz=America/New_York" style="border-width: 0" width="700" height="400" frameborder="0" scrolling="no"></iframe>
         </div>
     </div>
