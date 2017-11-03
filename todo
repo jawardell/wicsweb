@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 update 
 all of the pages zoom out very nicely except for the home page 
 
@@ -7,6 +8,22 @@ maybe try to implement the same css on the homepage,
 	and the banner image doesn't scale to the center 
 this only happens on the homepage
 __
+=======
+make navigation bar centered always
+make images scale with browser 
+..... basically, make ALL DIVS centered on page
+
+this can all be done using CSS margin auto
+
+
+~~~~
+
+find social media widgets for twitter and facebook 
+to embed into homepage
+
+
+~~~
+>>>>>>> ca6db525bbb5469f066e7e44e2351160f978c334
 
 would be cool to add a js function which allows people to send 
 a message to admin
