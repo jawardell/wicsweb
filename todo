@@ -1,3 +1,13 @@
+update 
+all of the pages zoom out very nicely except for the home page 
+
+maybe try to implement the same css on the homepage, 
+	to see what i mean,
+	zoom out really far on the home page 
+	and the banner image doesn't scale to the center 
+this only happens on the homepage
+__
+
 would be cool to add a js function which allows people to send 
 a message to admin
 then we could read/approve the messae and post it later
