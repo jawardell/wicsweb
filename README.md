@@ -1,8 +1,5 @@
+# WiCS Web: A Website for Women in Computing @ VSU
 
+We started a group for women interested in computing. We made a website for the group utilizing Vanilla JavaScript, HTML, and CSS. We disgused the whole set of webpages as a PHP application and were thus able to deploy the website using Heroku. 
 
-
-webmaster: <a href="https://github.com/amanmitchell">Amanda Mitchell</a><br>
-<a href="http://www.valdosta.club">website</a>
-
-<br>
-handwritten website deployed as a fake php app using Heroku
+This is a work in progress and the website grows with new experiences that we have with the club as time progresses. Take a look by visiting [our webpage](http://www.valdosta.club "our webpage").
